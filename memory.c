@@ -45,8 +45,8 @@ int main() {
     printf("RQ <processName> <size> <strategy(F/B/W)>: Request memory allocation\n");
     printf("RL <processName>: Release allocated memory\n");
     printf("C: Compact memory\n");
-    printf("ST: Print memory status\n");
-    printf("EX: Exit the program\n");
+    printf("STAT: Print memory status\n");
+    printf("X: Exit the program\n");
 
     while (true) { // Using 'true' for an infinite loop until exit
         printf("allocator> ");
